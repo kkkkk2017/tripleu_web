@@ -3285,7 +3285,7 @@ td:last-child {
 .header-logo a {
     display: block;
     margin : 0;
-    padding: 0;
+    padding: 5px;
     outline: 0;
     border : none;
 }
