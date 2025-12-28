@@ -3210,7 +3210,7 @@ td:last-child {
  * ------------------------------------------------------------------- */
 .s-header {
     --header-height : 7.2rem;
-    --logo-width    : 10.8rem;
+    --logo-width    : 8.8rem;
 
     z-index         : 100;
     background-color: transparent;
@@ -3285,7 +3285,7 @@ td:last-child {
 .header-logo a {
     display: block;
     margin : 0;
-    padding: 5px;
+    padding: 0;
     outline: 0;
     border : none;
 }
@@ -3293,6 +3293,7 @@ td:last-child {
 .header-logo img {
     width         : var(--logo-width);
     margin        : 0;
+    padding-top: 5px;
     vertical-align: bottom;
 }
 
@@ -3540,11 +3541,8 @@ td:last-child {
 
 @media screen and (max-width: 600px) {
     .header-logo {
-        left: calc(var(--gutter) * 2);
-    }
-
-    .header-menu-toggle {
-        right: calc(var(--gutter) * 2);
+        left: calc(var(--gutter) * 2  + 5px);
+        transform: translateY(10px) !important;
     }
 
     .header-nav {
@@ -3555,11 +3553,13 @@ td:last-child {
 
 @media screen and (max-width: 400px) {
     .s-header {
-        --logo-width: 9.8rem;
+        --logo-width: 6.8rem;
+    }
+
+    .header-logo {
+        transform: translateY(10px) !important;
     }
 }
-
-
 /* ===================================================================
  * # INTRO
  *
