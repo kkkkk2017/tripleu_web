@@ -3574,6 +3574,7 @@ td:last-child {
  * ## intro content
  * -------------------------------------------------------------------- */
  .s-intro__bg {
+    background-image: url("../images/intro-pic-primary.jpg");
     position: absolute;
     inset: 0;
     background-size: cover;
