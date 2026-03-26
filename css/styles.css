@@ -3574,13 +3574,12 @@ td:last-child {
  * ## intro content
  * -------------------------------------------------------------------- */
  .s-intro__bg {
-    background-image: url("images/intro-pic-primary.jpg");
+    background-image: url("/images/intro-pic-primary.jpg");
     position: absolute;
     inset: 0;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    border: 3px solid red;
 }
 
 /* .s-intro__bg::after {
